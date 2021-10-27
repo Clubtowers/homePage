@@ -1,34 +1,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
 html, body{
     background-color: rgb(117, 97, 97);
     margin: 0%;
 }
-section{
-    margin: auto 0;
-    width: 100%;
-    height: 225px;
-    background-color:rgb(209, 98, 98);
+
+
+form{
+    position: absolute;
+    top:100px;
+
 }
+
 iframe{
-    position: relative; left:0px; top:165px;
+    position: absolute; 
+    right:400px; 
+    top:100px;
     float: right;
     width:250px; 
     height:175px;
 }
-a {
-    position: relative; left:-500px; top:325px;
-    float: right;
-}
-
 
 h1{
-    position: relative; top:-500px; 
+    position: absolute; top:150px; 
     text-align: center;
     font-family: 'Frijole', cursive;
 }
-.cryp{
-    width: 225px;
-    height: 50px;
+.crypto{
+    width: 100%;
+    height:150px;
+    position:absolute;
+    top:300px;
+}
+img{
+position:absolute;
+top:500px;
+width: 100%;
+height:200px;
 
 }
+.clo{
+    position: absolute; 
+    top:150px; 
+    left: 500px;
+    text-align: center;
+    font-family: 'Frijole', cursive;
+}
+    
